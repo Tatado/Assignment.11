@@ -1,0 +1,15 @@
+1
+A metaclass in Python is a class of a class that defines how a class behaves.
+ A class is itself an instance of a metaclass. A class in Python defines how the instance of the class will behave. 
+In order to understand metaclasses well, one needs to have prior experience working with Python classes.
+2.
+In Python, we can customize the class creation process by passing the metaclass keyword in the class definition. 
+This can also be done by inheriting a class that has already passed in this keyword.
+ We can see below that the type of MyMeta class is type and that the type of MyClass and MySubClass is MyMeta .
+3.
+In Python, decorators can be either functions or classes. 
+In both cases, decorating adds functionality to existing functions.
+ When we decorate a function with a class, that function becomes an instance of the class.
+4.
+ Decorators can be used to manage both instances and classes, 
+and they intersect with metaclasses in the second of these roles.
